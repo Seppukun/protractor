@@ -1,0 +1,12 @@
+{
+    "framework": "jasmine2",
+    "browsers": "chrome",
+    "browserstackUser": "browserstackUser",
+    "browserstackKey": "browserstackKey",
+    "projectUrl": "https://www.google.com/",
+    "reportsPath": "../results",
+    "reportsPrefix": "xmloutput",
+    "resolution": "1920x1080",
+    "seleniumAddress": "http://hub-cloud.browserstack.com/wd/hub",
+    "system": "WIN8"
+}
