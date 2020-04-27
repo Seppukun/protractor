@@ -5,7 +5,7 @@
 
 ## Prerequisites
 - [Chrome](https://www.google.com/chrome/)
-- [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
+- [WebDriver Manager] (https://www.npmjs.com/package/webdriver-manager)
 - [Node.js](https://nodejs.org/en/)
 
 ## Installation
