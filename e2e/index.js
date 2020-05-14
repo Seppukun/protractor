@@ -60,10 +60,11 @@ const displayHelpAndExit = () => {
 	// Load optional selenium address override
 	protractorConfig.seleniumAddress = params.seleniumAddress || config.seleniumAddress;
 
-	//Trying to force Direct Connect
-	//Do This to test Locally
-	protractorConfig.directConnect = [];
-
+	//Direct Connect if testing locally
+	if (config.local.includes('true')) {
+		protractorConfig.directConnect = [];
+	}
+	
 	protractorConfig.multiCapabilities = [];
 	// Load browsers and OSs
 	const browsers = params.browsers ? params.browsers.split(',') : config.browsers.split(',');
